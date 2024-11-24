@@ -1,3 +1,5 @@
+[![Hercules CI](https://hercules-ci.com/api/v1/site/github/account/CORAAL/project/Nixos-by-GLF/badge)](https://hercules-ci.com/github/CORAAL/Nixos-by-GLF/status)
+
 # NixOS Offline ISO Builder
 This repository provides a flake template for creating offline ISO images of the
 NixOS Calamares installer with Gnome. 
