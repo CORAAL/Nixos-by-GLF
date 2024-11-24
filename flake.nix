@@ -1,5 +1,7 @@
 {
-  inputs = { nixpkgs.url = "nixpkgs/release-24.11"; };
+  inputs = { 
+    nixpkgs.url = "nixpkgs/release-24.11"; 
+  };
 
   outputs = { self, nixpkgs, ... } @ inputs:
     let
