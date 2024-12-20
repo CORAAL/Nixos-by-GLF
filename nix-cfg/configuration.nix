@@ -1,12 +1,6 @@
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# NE TOUCHEZ A RIEN
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 { config, pkgs, lib, ... }:
+
 {
-  imports = [
-    ./hardware-configuration.nix
-    ./glf
-  ];
 
   console.keyMap = "fr";
   services.xserver = {
@@ -16,13 +10,12 @@
     excludePackages = [ pkgs.xterm ];
   };
 
-  users.users.test = {
+  users.users.nixos = {
     isNormalUser = true;
-    description = "test";
     extraGroups = [ "networkmanager" "wheel" "render" ];
   };
 
-  nvidia_config.enable = true;
+  # nvidia_config.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
