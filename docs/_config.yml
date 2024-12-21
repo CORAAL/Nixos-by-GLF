@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: GLF Wiki Page d'accueil
 description: Bienvenue sur le Wiki du projet communautaire GLF-OS
+include: [introduction.md, usage.md, examples.md, faq.md]
+
