@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007acc;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #f1f1f1;
+    padding: 0.5rem;
+}
+
+.navigation li {
+    margin: 0 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #007acc;
+}
