@@ -27,5 +27,3 @@ cd Nixos-by-GLF
 ```bash
 make iso 
 ```
-
-
