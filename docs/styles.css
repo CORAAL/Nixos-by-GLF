@@ -32,8 +32,8 @@ header {
 }
 
 .logo-img {
-    max-width: 150px; /* Réduit la largeur */
-    height: auto; /* Conserve les proportions */
-    margin: 0 auto; /* Centre le logo si nécessaire */
+    max-width: 120px;
+    height: auto; 
+    margin: 0 auto;
     display: block;
 }
