@@ -7,58 +7,81 @@ body {
     color: #333;
 }
 
-header {
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     color: #fff;
     padding: 1rem;
-    text-align: center;
 }
 
-main {
-    padding: 2rem;
+.logo-container img {
+    height: 40px;
 }
 
-h1, h2, h3 {
-    color: #333;
+.nav-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
-code {
-    background-color: #eee;
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.search-container input {
     padding: 0.5rem;
+    border: none;
     border-radius: 4px;
 }
 
-/* Styles pour le conteneur */
+/* Styles pour le conteneur principal */
 .container {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-/* Styles pour le logo */
-.logo {
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-/* Styles pour le texte */
-.text {
+/* Styles pour la barre latérale */
+.sidebar {
+    flex: 0 0 250px;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour le contenu principal */
+.content {
     flex: 1;
-}
-
-/* Styles pour la capture d'écran */
-.screenshot {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
 }
 
 /* Styles pour les liens */
