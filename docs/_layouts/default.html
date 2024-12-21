@@ -8,13 +8,25 @@
 </head>
 <body>
     <header>
-        <h1>Project Documentation</h1>
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo du projet" class="logo-img">
+        </div>
+        <h1>{{ site.title }}</h1>
     </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/introduction.html">Introduction</a></li>
+            <li><a href="/usage.html">Usage</a></li>
+            <li><a href="/examples.html">Exemples</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+        </ul>
+    </nav>
     <main>
         {{ content }}
     </main>
     <footer>
-        <p>&copy; 2024 Your Project. All rights reserved.</p>
+        <p>&copy; 2024 GLF-OS. Tous droits réservés.</p>
     </footer>
 </body>
 </html>

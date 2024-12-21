@@ -1,5 +1,11 @@
+---
+layout: default
+title: Introduction
+---
+
 # Introduction
-Welcome to the project documentation! This guide will help you understand and use the project efficiently.
+
+Bienvenue sur le projet GLF-OS ! Ce guide vous permettra de prendre en main les fonctionnalités principales.
 
 # Examples
 Here are some examples of how to use the project effectively:
