@@ -1,3 +1,8 @@
+---
+layout: default
+title: Documentation GitHub Pages
+---
+
 # GLF-OS 
 
 Gaming Linux Fr est une communauté de passionés articulée autour d'un Discord, d'un site web et de la chaine Youtube de Vinceff.
