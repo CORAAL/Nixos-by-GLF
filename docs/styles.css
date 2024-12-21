@@ -30,3 +30,10 @@ header {
     text-decoration: none;
     color: #007acc;
 }
+
+.logo-img {
+    max-width: 150px; /* Réduit la largeur */
+    height: auto; /* Conserve les proportions */
+    margin: 0 auto; /* Centre le logo si nécessaire */
+    display: block;
+}
