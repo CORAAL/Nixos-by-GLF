@@ -3,7 +3,7 @@ layout: default
 title: Documentation GitHub Pages
 ---
 
-<img src="./assets/img/glf-os-logo.png" class="screenshot">
+<div class="container"><img src="./assets/img/glf-os-logo.png" class="screenshot">
 
 # GLF-OS 
 

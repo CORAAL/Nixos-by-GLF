@@ -26,6 +26,12 @@ code {
     border-radius: 4px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 /* Styles pour le logo */
 .logo {
     width: 100px;
